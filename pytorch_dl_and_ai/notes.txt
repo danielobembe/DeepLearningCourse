@@ -1,0 +1,32 @@
+Github Link: https://github.com/lazyprogrammer/machine_learning_examples/blob/master/pytorch/extra_reading.txt
+Resources Link: https://deeplearningcourses.com/notebooks/isM8ZpXu9jiGqGwAVoqfSg
+
+TODO:
+- Take "The Numpy Stack" free course on the weeekend. {
+    - takes about 3 - 4 hours
+    - https://deeplearningcourses.com/c/deep-learning-prerequisites-the-numpy-stack-in-python
+    - Topics:
+        - numpy: matrix arithmetic, tensors / arrays
+        - matplotlib: line charts, scatterplots
+        - pandas: load in tabular data
+        - scipy: "power"-numpy
+        - scikit-learn: know about the concepts behind scikit-learn
+}
+
+
+Machine Learning Steps:
+- Load in data:
+    a) X, y 
+    b) Use pandas for this 
+- Split into train/test 
+    a) sometimes test and validation are used differently
+- Build a model:
+    a) typically an OOP object
+- Fit the model: 
+    a) model.fit(x,y)
+    b) plot loss-per-iteration 
+- Evaluate the model:
+    a) check the accuracy on both train and validation sets 
+- Make predictions
+
+
